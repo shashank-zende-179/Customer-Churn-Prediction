@@ -45,3 +45,62 @@ Try the app on your local machine:
 
 ---
 
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+Make sure you have the following installed:
+
+- Python 3.8+
+- `streamlit`
+- `tensorflow`
+- `pandas`
+- `scikit-learn`
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ Run the App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📁 Files Included
+
+| File | Description |
+|------|-------------|
+| `app.py` | Main Streamlit app |
+| `model.h5` | Trained TensorFlow model |
+| `ohe.pkl` | OneHotEncoder for categorical features |
+| `le.pkl` | LabelEncoder for output classes |
+
+---
+
+## 📝 Input Fields
+
+- Gender, Senior Citizen, Partner, Dependents
+- Tenure, Phone Service, Internet Service, etc.
+- Monthly & Total Charges
+- Contract and Payment Method
+
+---
+
+## 📊 Output
+
+- **Prediction Label**: `Yes` or `No`
+- **Churn Probability**: Displayed as percentage
+- **Risk Message**: High or Low Risk
+
+---
+
+## ✨ Future Improvements
+
+- Upload CSV to predict churn for multiple customers
+- Visualize churn patterns with charts
+- Deploy on Streamlit Cloud or Hugging Face Spaces
